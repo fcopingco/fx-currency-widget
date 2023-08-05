@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.forex-card {
+  width: fit-content;
+  height: 260px;
+  padding: 20px;
+}
+
+.gradient-background {
+  background: linear-gradient(
+    to bottom,
+    #ff80ab,
+    #d70060
+  ); /* Pink and dark pink gradient */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-title {
+  text-align: center;
+  color: #d70060;
+  margin-bottom: 20px;
+}
+
+.widget-field {
+  border-top-right-radius: 0px !important;
+  width: 140px;
+}
+
+.exchange-rate {
+  text-align: right;
+  color: #d70060; /* Same color as the title */
+}
+
+/* Dropdown on hover/focus styles */
+.select-field:hover,
+.select-field:focus {
+  border-color: transparent; /* Remove the border */
+  width: 100%;
+  box-shadow: 0 0 0 0.2rem rgba(215, 0, 96, 0.5); /* Dark pink box shadow */
+}
